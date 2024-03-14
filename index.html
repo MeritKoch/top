@@ -35,25 +35,32 @@
             </figure>
             <br>
             <h3>Übersichtskarte</h3>
-            <div id="map"></div>
+            <div id="map" style="width: 90%;height: 600px"></div>
 
             <br>
             <h3>Links</h3>
             <ul>
-                <li><a href="https://guidetoiceland.is/de/island-tourplaner/landmannalaugar">Guide to Iceland Landmannalaugar</a></li>
+                <li><a href=" https://guidetoiceland.is/de/island-tourplaner/landmannalaugar">Guide to Iceland Landmannalaugar</a></li>
                 <li><a href="https://adventures.com/de/island/attraktionen/landmannalaugar/">Adventures Guide Landmannalaugar</a></li>
                 <li><a href="https://adventures.is/de/island/attraktionen/landmannalaugar/">Arctic Adventures</a></li>
             </ul>
         </article>
         <br>
-        <footer>
-            <nav>
-                <a href="https://czackl.github.io/top">Vorhergehende Top Location</a>
-                <a href="https://meritkoch.github.io/top">Diese Top Location</a>
-                <a href="https://niklasschw.github.io/top">Nächste Top Location</a>
-            </nav>
-        </footer>
     </main>
+    <footer>
+        <nav>
+            <a href="https://czackl.github.io/top">Vorhergehende Top Location</a>
+            <a href="https://meritkoch.github.io/top">Diese Top Location</a>
+            <a href="https://niklasschw.github.io/top">Nächste Top Location</a>
+        </nav>
+    </footer>
+
+
+    <script>
+        var map = L.map('map').setView([51.505, -0.09], 13);
+
+    </script>
+
 </body>
 
 </html>
