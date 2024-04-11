@@ -13,9 +13,6 @@ L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
 }).addTo(map);
 
-let marker = L.marker([lat, lng]).addTo(map);
-marker.bindPopup("<strong>Landmannalaugar</strong><br><em>Island</em>").openPopup();
-
 //Maßstab
 L.control.scale({
     imperial: false,
@@ -298,7 +295,7 @@ L.geoJSON(jsondata, {}).bindPopup(function (layer) {
     <ul>
         <li>Breite: ${layer.feature.geometry.coordinates[1].toFixed(5)}</li>
         <li>Länge: ${layer.feature.geometry.coordinates[0].toFixed(5)} </li>
-        <li><a href="https://${layer.feature.properties.user}.github.io/nz">Etappenseite</a></li>
+        <li><a href="https://${layer.feature.properties.user}.github.io/top">Webmapping Kursseite</a></li>
         <li><a href="${layer.feature.properties.wikipedia}">Wikipedia</li>
     </ul>
     `;
