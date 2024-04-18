@@ -291,7 +291,7 @@ L.geoJSON(jsondata, {}).bindPopup(function (layer) {
     console.log(layer.feature.properties)
     return `
     <h2>${layer.feature.properties.name}
-    <h2>
+    </h2>
     <ul>
         <li>Breite: ${layer.feature.geometry.coordinates[1].toFixed(5)}</li>
         <li>Länge: ${layer.feature.geometry.coordinates[0].toFixed(5)} </li>
