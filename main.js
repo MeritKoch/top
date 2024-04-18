@@ -273,15 +273,15 @@ let jsondata = {
             "type": "Feature",
             "geometry": {
                 "type": "Point",
-                "coordinates": [173.68222, -42.41167]
+                "coordinates": [10.891667, 49.891667]
             },
             "properties": {
                 "nr": 20,
                 "user": "lealucia",
                 "name": "Bamberg",
-                "wikipedia": "https://de.wikipedia.org/wiki/Bamberg "
+                "wikipedia": "https://de.wikipedia.org/wiki/Bamberg"
             }
-        }
+        },
     ]
 }
 
